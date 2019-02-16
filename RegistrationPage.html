@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	<title>Sign Up with Parks n Rec</title> 
+		<link href="public/css/default.css" rel="stylesheet" />
+		<link rel="icon" href="public/images/logo 2.png" type="image/x-icon" />
+		<link rel="stylesheet" href="./public/css/fa/css/font-awesome.min.css">
+	</head>
+	<body background="park3.jpg">
+		<div id="headerwrapper">
+            <header>
+                <div id="logo" class="noselect">
+					<a href="./SearchPage.html">
+                    	<img src="./public/images/logo.png" alt="Logo" style="width:135px;height:90px;">
+					</a>
+                </div>
+                <div id="nameofgroup" class="noselect">
+                    Parks and Rec
+                </div>
+            </header>
+		</div>
+
+		<main>
+			<div  class="center">
+                <form action="./SearchPage.html">
+                    <p> 
+                        <input type="text" id="First_Name" name="First_Name" placeholder="First Name" required>
+                    </p>
+                    <p>
+                        <input type="text" id="Last_Name" name="Last_Name" placeholder="Last Name" required>
+                    </p>
+                    <p>
+                        <input type="text" id="email" name="email" placeholder="email@address.com" required>
+                    </p>
+                
+                    <p>
+                        <input type="date" name="deadline" required > <!-- Calender for dob -->
+                    </p>
+                    <p>   
+                        <select type="gender" name="Gender">
+                            <option value="Gender">--Select Gender--</option>                       
+                            <option value="Male">Male</option>
+                            <option value="Female">Female</option>
+                            <option value="Other">Other</option>
+                        </select>
+                    </p>
+                    <p> <!-- password input -->
+                        <input type="password" id="password" name="password" placeholder="Password" required>
+                        <input type="password" id="passwordval" name="passwordval" placeholder="Retype Password" required>
+                    </p>
+                    <p>
+                        <div class="centerreview">
+					        <button type="submit">Register</button>
+				        </div>
+                    </p>
+                </form>
+            </div>
+		</main>
+		
+
+        <div class="footerfixed">
+			<div id='socialMediaLinks'>
+                <div class="social-media-container">
+                    <a class="social-media-link">
+                        <i class="fa fa-facebook" aria-hidden='true'></i>
+                    </a>
+                </div>
+                <div class="social-media-container">
+                    <a class="social-media-link">
+                        <i class="fa fa-instagram" aria-hidden='true'></i>
+                    </a>
+                </div>
+                <div class="social-media-container">
+                    <a class="social-media-link">
+                        <i class="fa fa-twitter" aria-hidden='true'></i>
+                    </a>
+                </div>
+            </div>
+		</div>
+	</body>
+</html>
